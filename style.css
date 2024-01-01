@@ -59,8 +59,8 @@ body {
     padding-left: 30px;
     font-size: 20px;
 }
-.Technical-Knowledge div,
-.Projects div{
+.Technical-Knowledge > div,
+.Projects > div{
     padding-left: 30px;
     margin: 10px 0;
     display: flex;
@@ -78,8 +78,16 @@ body {
 .Technical-Knowledge .about,
 .Projects .about {
     margin: 0;
-    background-color: lightgray;
+    background-color: rgb(165, 165, 165);
     width: 85%;
     padding: 10px;
     border-radius: 7px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.Technical-Knowledge .about span,
+.Projects .about span{
+    display: block;
+    font-size: 25px;
+    color: white;
 }
