@@ -166,3 +166,19 @@ body {
         font-size: 18px;
     }
 }
+
+@media only screen and (max-width: 375px) {
+    .profile-links a{
+        margin: 0;
+        font-size: 12px;
+    }
+    .pictureWithContacts{
+        width: 38%;
+    }
+    .card{
+        width: calc(65% - 23px);
+    }
+    .name {
+        font-size: 0.9em;
+    }
+}
