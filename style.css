@@ -169,16 +169,17 @@ body {
 
 @media only screen and (max-width: 375px) {
     .profile-links a{
-        margin: 0;
         font-size: 12px;
     }
-    .pictureWithContacts{
-        width: 38%;
-    }
-    .card{
-        width: calc(65% - 23px);
-    }
     .name {
-        font-size: 0.9em;
+        font-size: 1.1em;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .profile-links a{
+        font-size: 10px;
+    }
+    .card .education {
+        font-size: 13px;
     }
 }
